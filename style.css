@@ -2,30 +2,45 @@ body {
     background-color: blanchedalmond;
     position: relative;
 }
-.container1 {
-    background-color: #a52a2a;
-    position: absolute;
-    width: 900px;
-    height: 700px;
 
+.row-1{
+    background-color: white;
+    height:75vh;
+    margin-top: 55px;
+    padding-top: 47px;
+    border-radius: 15px;
+    margin-bottom: 30px;
 }
-.container2 {
-    background-color: cornflowerblue;
-    position: static; top: 0; left: 0;
-    width: 800px;
-    height: 600px;
-    margin: 35px;
-    margin-top: 30px;
-    padding-top: 19px;
+.row-2{
+  border: 4px dashed lightgray;
+  padding: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 8vh;
     
 }
-h1 {
-    text-align: center;
-    color: white;
+h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-h2 {
-    text-align: center;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+.textarea {
+ height: 20vh;
+ border-color: white;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+button{
+    padding: 1vh;
+}
+.btn-group-lg>.btn, .btn-lg {
+    border-radius: 12.3rem;
+}
+.check-boxes{
+    padding-top: 10px;
+    
 }
