@@ -27,7 +27,7 @@ h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.textarea {
+#textarea {
  height: 20vh;
  border-color: white;
  font-family: Verdana, Geneva, Tahoma, sans-serif;
