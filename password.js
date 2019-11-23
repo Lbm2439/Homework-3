@@ -22,40 +22,21 @@ function password_generator( len ) {
 }
 
 
-var generatedPassword = password_generator(10)
-var textBox = document.getElementById('textarea')
-textBox.textContent = generatedPassword
 
-// console.log(generatedPassword)
-
-
-document.getElementById('bttn1').addEventListener('click', generatedPassword);{
-
-var generatedPassword = password_generator(10)
-var textBox = document.getElementById('textarea')
-textBox.textContent = generatedPassword
-
-}
-
-
-
-document.getElementById('bttn2').addEventListener('click',);{
-    function myFunction() {
-        /* Get the text field */
-        var copyText = document.getElementById("myInput");
-      
-        /* Select the text field */
-        copyText.select();
-        copyText.setSelectionRange(0, 99999); /*For mobile devices*/
-      
-        /* Copy the text inside the text field */
-        document.execCommand("copy");
-      
-        /* Alert the copied text */
-        alert("Copied the text: " + copyText.value);
-      }
+document.getElementById('bttn1').addEventListener('click', function() {
+    var generatedPassword = password_generator(10)
+    var textBox = document.getElementById('textarea')
+    textBox.textContent = generatedPassword
     
-    }
 
+})
+
+document.getElementById('bttn2').addEventListener('click', function(copyText) {
+    var copyText = document.getElementById('textarea')
+    document.execCommand('copy');
+    alert("Copied The Text: " + copyText.innerText);
+
+
+})
 
 
