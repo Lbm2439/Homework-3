@@ -33,8 +33,10 @@ document.getElementById('bttn1').addEventListener('click', function() {
 
 document.getElementById('bttn2').addEventListener('click', function(copyText) {
     var copyText = document.getElementById('textarea')
+    copyText.select;
+    copyText.setSelectionRange(0, 99999);
     document.execCommand('copy');
-    alert("Copied The Text: " + copyText.innerText);
+    alert("Copied The Text: " + copyText.value);
 
 
 })
